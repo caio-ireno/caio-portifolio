@@ -1,7 +1,9 @@
-import { Box, Grid, Typography, useTheme } from "@mui/material";
+import { Box, Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
 
 export default function Skills() {
   const { palette } = useTheme();
+  const theme = useTheme();
+  const smDown = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Box
       width={"100%"}
@@ -49,7 +51,10 @@ export default function Skills() {
             >
               Front-End
             </Typography>
-            <Typography fontSize={20} color={palette.primary.contrastText}>
+            <Typography
+              fontSize={smDown ? 15 : 20}
+              color={palette.primary.contrastText}
+            >
               Experience with ReactJS, React Native, Typescript, NextJS, Context
               API and React Hooks in addition to CSS frameworks such as Chakra,
               Tailwind, Material UI and Style Components. I create responsive
@@ -77,7 +82,10 @@ export default function Skills() {
             >
               Back-End
             </Typography>
-            <Typography fontSize={20} color={palette.primary.contrastText}>
+            <Typography
+              fontSize={smDown ? 15 : 20}
+              color={palette.primary.contrastText}
+            >
               Experience with NodeJS, PHP, Laravel, MySQL, RealmDB and GraphQL.
               Development of web systems using MVC architecture, creation of
               APIs and integration with databases. Familiarity with technologies

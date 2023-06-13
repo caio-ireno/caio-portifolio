@@ -38,17 +38,6 @@ export default function Project() {
           { id: 5, name: "Material UI" },
         ]}
       />
-      <CardProject
-        name={"WEB - Caio's portfolio"}
-        description="Portfolio developed to present my skills and my personal and professional projects. This website was developed with React, typescript and material UI. The design was developed using Figma."
-        url="https://github.com/caio-ireno/portifolio"
-        img={imgPortifolio}
-        skills={[
-          { id: 1, name: "React" },
-          { id: 2, name: "TypeScript" },
-          { id: 3, name: "Material UI" },
-        ]}
-      />
 
       <CardProject
         name={"MOBILE - Ondas de Parto"}

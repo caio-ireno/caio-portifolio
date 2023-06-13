@@ -1,6 +1,5 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import imgUrla from "../assets/urla.png";
-import imgPortifolio from "../assets/portifolio.png";
 import imgContrax from "../assets/ondasdeparto.png";
 import imgAgenda from "../assets/agendapessoal.png";
 

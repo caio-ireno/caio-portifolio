@@ -7,7 +7,7 @@ import CardProject from "../components/Card/CardProject";
 
 export default function Project() {
   const { palette } = useTheme();
-
+  //teste
   return (
     <Box
       width={"100%"}
